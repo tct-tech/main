@@ -1,0 +1,71 @@
+/**
+ * @Author: Your name
+ * @Date:   2023-08-25 13:59:01
+ * @Last Modified by:   Your name
+ * @Last Modified time: 2023-08-25 14:07:26
+ */
+*, *::after, *::before{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.title{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+.subsection{
+    width: 660px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.blockRow{
+    display: flex;
+    gap: 20px;
+}
+
+.block{
+    cursor: pointer;
+    width: 20rem;
+    background-color: rgb(221, 235, 247);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.block:hover{
+    background-color: rgb(174, 211, 244);
+    transition: transform .15s; /* animation*/
+    transform: scale(1.02);
+}
+
+.block:active{
+    background-color: rgb(127, 155, 179);
+    transform: translateY(2px);
+}
+
+.blockTitle{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
