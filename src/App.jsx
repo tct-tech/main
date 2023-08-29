@@ -30,6 +30,14 @@ function App() {
             />
           </div>
         </div>
+        <div className='subsection'>
+          <div className='title'>Database:</div>
+          <Block 
+            title='Inventory' 
+            descr='Manage and track inventory of drills, monitor stock levels, record item details, and availability.'
+            URL='https://tct-inventory.fly.dev/catalog'
+          />
+        </div>
       </div>
     </>
   )
