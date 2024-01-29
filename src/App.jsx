@@ -19,14 +19,19 @@ function App() {
           <div className='title'>ProX2CNC by Impex:</div>
           <div className='blockRow'>
             <Block 
-              title='Impex Data Processor' 
-              descr='Process Raw Data from ProX2CNC, generates CPK, Max/Avg/Std Dev...'
-              URL='https://tct-tech.github.io/impex-data-processor'
+              title='DXF Generator' 
+              descr='Read Excellon Drill files and generate program files for QCAD'
+              URL='https://tct-tech.github.io/dxf-generator/'
             />
             <Block 
               title='Grid DXF Generator' 
               descr='Generates DXFs for Grid Patterns with the correct drill order'
               URL='https://tct-tech.github.io/grid-generator'
+            />
+            <Block 
+              title='Impex Data Processor' 
+              descr='Process Raw Data from ProX2CNC, generates CPK, Max/Avg/Std Dev...'
+              URL='https://tct-tech.github.io/impex-data-processor'
             />
           </div>
         </div>
