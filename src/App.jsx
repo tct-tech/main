@@ -14,6 +14,11 @@ function App() {
             descr='Calculate ChipLoad, Cutting Speed'
             URL='https://tct-tech.github.io/fs-calc'
           />
+          <Block 
+            title='Image Cropping' 
+            descr='Crop drill photos into squares'
+            URL='https://jruva.github.io/Picrop'
+          />
         </div>
         <div className='subsection'>
           <div className='title'>ProX2CNC by Impex:</div>
